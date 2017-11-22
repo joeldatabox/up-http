@@ -4,7 +4,7 @@ import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
 import {HttpModule} from "./modules/http/http.module";
-import {HttpService} from "./modules/http/http.service";
+import {ViewUtilsModule} from "./modules/view-utils/view-utils.module";
 
 
 @NgModule({
@@ -13,11 +13,10 @@ import {HttpService} from "./modules/http/http.service";
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    HttpModule,
+    ViewUtilsModule
   ],
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  constructor(http: HttpService) {
-  }
 }

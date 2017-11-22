@@ -28,4 +28,9 @@ export class LocalStorageService {
     window.localStorage.removeItem(key);
     return this;
   }
+
+  clear(): LocalStorageService {
+    window.localStorage.clear();
+    return this;
+  }
 }
