@@ -1,13 +1,13 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {StorageService} from "./storage.service";
+import {LocalStorageService} from "./local-storage.service";
 
 @NgModule({
   imports: [
     CommonModule
   ],
   providers: [
-    StorageService
+    LocalStorageService
   ]
 })
 export class StorageModule {
