@@ -2,6 +2,10 @@ import {Injectable} from '@angular/core';
 import {MatSnackBar} from "@angular/material";
 import {isNullOrUndefined} from "../../../../utils/commons.model";
 
+/**
+ * @author Joel Rodrigues Moreira
+ * e-mail: <a href="mailto:joel.databox@gmail.com">joel.databox@gmail.com</a>
+ */
 @Injectable()
 export class SnackService {
 

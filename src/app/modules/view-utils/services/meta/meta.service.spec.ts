@@ -1,6 +1,6 @@
-import { TestBed, inject } from '@angular/core/testing';
+import {inject, TestBed} from '@angular/core/testing';
 
-import { MetaService } from './meta.service';
+import {MetaService} from './meta.service';
 
 describe('MetaService', () => {
   beforeEach(() => {

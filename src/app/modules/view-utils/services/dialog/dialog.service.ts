@@ -3,6 +3,10 @@ import {IAlertConfig, IConfirmConfig, TdDialogService} from "@covalent/core";
 import {Observable} from "rxjs/Observable";
 import "rxjs/add/operator/map";
 
+/**
+ * @author Joel Rodrigues Moreira
+ * e-mail: <a href="mailto:joel.databox@gmail.com">joel.databox@gmail.com</a>
+ */
 @Injectable()
 export class DialogService {
 

@@ -1,3 +1,7 @@
+/**
+ * @author Joel Rodrigues Moreira
+ * e-mail: <a href="mailto:joel.databox@gmail.com">joel.databox@gmail.com</a>
+ */
 export class MediaType {
   public static readonly ALL = "*/*";
   public static readonly APPLICATION_JSON = "application/json";

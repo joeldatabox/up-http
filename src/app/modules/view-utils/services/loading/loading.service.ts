@@ -2,7 +2,10 @@ import {Injectable} from "@angular/core";
 import {TdLoadingService} from "@covalent/core";
 import {LoadingTopbarService} from "../../components/loading-topbar/service/loading-topbar.service";
 
-
+/**
+ * @author Joel Rodrigues Moreira
+ * e-mail: <a href="mailto:joel.databox@gmail.com">joel.databox@gmail.com</a>
+ */
 @Injectable()
 export class LoadingService {
 

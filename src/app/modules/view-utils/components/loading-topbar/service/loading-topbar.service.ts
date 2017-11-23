@@ -2,6 +2,10 @@ import {Injectable} from "@angular/core";
 import {Subject} from "rxjs/Subject";
 import {LoaderState} from "../model/loading";
 
+/**
+ * @author Joel Rodrigues Moreira
+ * e-mail: <a href="mailto:joel.databox@gmail.com">joel.databox@gmail.com</a>
+ */
 @Injectable()
 export class LoadingTopbarService {
   private loaderSubject = new Subject<LoaderState>();

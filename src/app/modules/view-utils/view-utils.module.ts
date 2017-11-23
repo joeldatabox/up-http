@@ -10,6 +10,10 @@ import {LoadingTopbarComponent} from "./components/loading-topbar/component/load
 import {LoadingService} from "./services/loading/loading.service";
 import {LoadingTopbarService} from "./components/loading-topbar/service/loading-topbar.service";
 
+/**
+ * @author Joel Rodrigues Moreira
+ * e-mail: <a href="mailto:joel.databox@gmail.com">joel.databox@gmail.com</a>
+ */
 @NgModule({
   imports: [
     CommonModule,
@@ -23,7 +27,7 @@ import {LoadingTopbarService} from "./components/loading-topbar/service/loading-
   declarations: [
     LoadingTopbarComponent
   ],
-  exports:[
+  exports: [
     LoadingTopbarComponent
   ]
   providers: [
